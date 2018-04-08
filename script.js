@@ -43,7 +43,7 @@ function getFileInfo(fileId, callback) {
         console.log('Something bad happened: ' + err);
     }
 }
-//getFileInfo();
+
 function getCSV(url,func) {
         var file = url;
         var rawFile = new XMLHttpRequest();
@@ -60,7 +60,4 @@ function getCSV(url,func) {
         };
 
         rawFile.send();
-
-
 }
-
