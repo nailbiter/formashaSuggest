@@ -1,19 +1,9 @@
-var csvurl=["https://cors.io/?"+
-    "https://docs.google.com/spreadsheets/d/e/2PACX-1vRHDbWVpZeC2eWsDl0IYu0UpTZ8vFg5pBxoX5ueLHTvn4npuXFgHkfCeV0VpvJNsFJQ2Mu8JFq7KyUI/pub?gid=1160302316&output=csv",
-"https://cors.io/?"+
-    "https://docs.google.com/spreadsheets/d/e/2PACX-1vRHDbWVpZeC2eWsDl0IYu0UpTZ8vFg5pBxoX5ueLHTvn4npuXFgHkfCeV0VpvJNsFJQ2Mu8JFq7KyUI/pub?gid=0&output=csv"];
-
 function getList(){
     var list = [];
-    csvurl.forEach(function(it,ind){
-        getCSV(it,function(contents){
-          var obj = Papa.parse(contents);
-            console.log(obj);
-            obj.data.slice(1).forEach(function(item,index){
-                list.push(item[0]+" - "+item[1]);
-            })
-        });
-    })
+    var obj = Papa.parse(csv);
+    console.log(obj);
+    obj.data.slice(1).forEach(function(item,index){
+        list.push(item[0]+" - "+item[1])});
     
     return list;
 }
