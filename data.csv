@@ -1,0 +1,636 @@
+csv=
+'                       english,                       русский перевод,      added to FC\n'+
+'acute,острый (угол),TRUE\n'+
+'add,прибавлять,TRUE\n'+
+'addition,сложение,TRUE\n'+
+'altitude,высота (отрезок из вершины перпендикулярно противоположной стороне),TRUE\n'+
+'angle,угол,TRUE\n'+
+'arc,дуга,TRUE\n'+
+'axis,ось,TRUE\n'+
+'bound,"ограничение, граница",TRUE\n'+
+'cancel out,"сократить (дробь, уравнение)",TRUE\n'+
+'centripetal,центростремительный,TRUE\n'+
+'charge,заряд,TRUE\n'+
+'chord,хорда,TRUE\n'+
+'circumference,длина круга,TRUE\n'+
+'"circumscribe, to",описать (фигуру вокруг другой фигуры),TRUE\n'+
+'collide,сталкиваться,TRUE\n'+
+'commutative,коммутативный,TRUE\n'+
+'complementary angles,"угол, дополняющий до 90 градусов",TRUE\n'+
+'cone,конус,TRUE\n'+
+'cosine,косинус,TRUE\n'+
+'denominator,знаменатель,TRUE\n'+
+'derivative,производная,TRUE\n'+
+'digit,цифра,TRUE\n'+
+'dimension,измерение,TRUE\n'+
+'displacement,перемещение,TRUE\n'+
+'distance,расстояние,TRUE\n'+
+'"divide, to",делить,TRUE\n'+
+'equation,"уравнение, формула",TRUE\n'+
+'equidistant,равноудаленный,TRUE\n'+
+'equilateral triangle,равноугольный треугольник,TRUE\n'+
+'even,четное (число),TRUE\n'+
+'expression,выражение,TRUE\n'+
+'externally tangent,"отрезок касается фигуры, и лежит вне ее",TRUE\n'+
+'factor,множитель (или делитель),TRUE\n'+
+'fraction,дробь,TRUE\n'+
+'friction,трение,TRUE\n'+
+'frictional force,сила трения,TRUE\n'+
+'gallon,мера объема,TRUE\n'+
+'gravitational field,гравитационное поле,TRUE\n'+
+'improper fraction,несобственная дробь (e.g. 5/3),TRUE\n'+
+'inclined plane,наклонная плоскость,TRUE\n'+
+'infinitely,бесконечно,TRUE\n'+
+'inscribe,вписать (фигуру в другую фигуру),TRUE\n'+
+'integer,целое число,TRUE\n'+
+'interaction,взаимодействие,TRUE\n'+
+'internally tangent,"отрезок касается фигуры, и лежит внутри ее",TRUE\n'+
+'intersection,пересечение,TRUE\n'+
+'isosceles triangle,равнобедренный треугольник,TRUE\n'+
+'leg,катет,TRUE\n'+
+'lever arm,рычаг (вращения),TRUE\n'+
+'linear,линейный,TRUE\n'+
+'liquefies,превращается в жидкость,TRUE\n'+
+'multiple,множитель,TRUE\n'+
+'multiplication,умножение,TRUE\n'+
+'numerator,знаменатель,TRUE\n'+
+'origin,основа (системы координат),TRUE\n'+
+'particle,"частица (атом, электрон); частица речи",TRUE\n'+
+'polygon,многоугольник,TRUE\n'+
+'projectile motion,движение брошенного тела,TRUE\n'+
+'quadrilateral,четырехугольник,TRUE\n'+
+'radii,множественное от radius,TRUE\n'+
+'sine,синус,TRUE\n'+
+'subtraction,отнимание,TRUE\n'+
+'supplementary angles,"угол, дополняющий до 180 градусов",TRUE\n'+
+'transversal,секущая (прямая),TRUE\n'+
+'trapezoid,трапеция,TRUE\n'+
+'triangle,треугольник,TRUE\n'+
+'two dimensional,двухмерный,TRUE\n'+
+'unit vector,единичный вектор,TRUE\n'+
+'variable,переменная,TRUE\n'+
+'velocity,скорость,TRUE\n'+
+'domain,область определения функции,\n'+
+'"reflect, to",отобразить,\n'+
+'degree,степень,\n'+
+'exponent,степень,\n'+
+'split (adj),разбитый на куски,\n'+
+'piecewise,кусочный,\n'+
+'self-explanatory,"очевидный, не требующий объяснений",\n'+
+'misuse,неправильное использование,\n'+
+'"violate, to",нарушать (правило),\n'+
+'"anticipate, to",ожидать,\n'+
+'"mess up, to","ошибиться, сплоховать, запутаться",\n'+
+'despite,несмотря на,\n'+
+'"slid, to",скользить,\n'+
+'                       english,                       русский перевод,      added to FC\n'+
+'A can be treated as B,"A может считаться B, A может рассматриваться как B",\n'+
+'A followed by B,B следует за A,TRUE\n'+
+'A is affected by B,на А повлияло В,TRUE\n'+
+'A is fitted with B,в A установлено B,TRUE\n'+
+'A is fond of B,А любит В,\n'+
+'A is permeated by B,А пронизано В,\n'+
+'A runs the gamut from B to C,диапазон А включает в себя все от В до С,\n'+
+'a sample of A,образец A,TRUE\n'+
+'absence,отсутствие,TRUE\n'+
+'abundant,обильный,TRUE\n'+
+'"accomplish, to",достичь,\n'+
+'accurate,точный,TRUE\n'+
+'"acquire, to",получить,\n'+
+'adjacent,соседний,TRUE\n'+
+'almost,почти,TRUE\n'+
+'alter,менять,TRUE\n'+
+'amount,количество,TRUE\n'+
+'amusement park,парк развлечений,TRUE\n'+
+'apart,"по частям, не вместе",TRUE\n'+
+'apparent,кажущийся,TRUE\n'+
+'applied,"приложенный, прикладной",TRUE\n'+
+'approach,"приближаться (к чему-то), атаковать (задачу)",TRUE\n'+
+'arise,"появляться (проблеме, вопросу)",TRUE\n'+
+'around,рядом,TRUE\n'+
+'"arrange, to",расставить,TRUE\n'+
+'arrow,стрелка,TRUE\n'+
+'assume,"таблица, диаграмма",\n'+
+'assume (v),предположить,TRUE\n'+
+'assured,уверенный,TRUE\n'+
+'at the expense of A,ценой A,TRUE\n'+
+'attempt (n),попытка,TRUE\n'+
+'attract,притягивать,TRUE\n'+
+'average,средний,TRUE\n'+
+'avoid,избегать,TRUE\n'+
+'"aware, to be","знать (к примеру, что 2+2=4)",TRUE\n'+
+'baffling,запутывание,\n'+
+'barbell,штанга,TRUE\n'+
+'barred,перекрытый,TRUE\n'+
+'baseline,линия земли,TRUE\n'+
+'bat,бита,TRUE\n'+
+'be on the straight and narrow,вести себя хорошо,TRUE\n'+
+'beams,"лучи, рельсы",TRUE\n'+
+'bean,боб,TRUE\n'+
+'below,"под, ниже",TRUE\n'+
+'beneath,"под, позади",TRUE\n'+
+'"beware, to","остерегайтесь, знайте, бойтесь",TRUE\n'+
+'"boil down to, to",свестись к,TRUE\n'+
+'"boil down to, to",свестись к,\n'+
+'bold,грубый,TRUE\n'+
+'boldface,жирный шрифт,TRUE\n'+
+'bond,"связь (к примеру, связь между друзьями)",TRUE\n'+
+'bone,кость,TRUE\n'+
+'bounded,ограничен,TRUE\n'+
+'"break it down разобрать, to","это по частям, «по косточкам», подробно",\n'+
+'"breed, to",рождаться,TRUE\n'+
+'broadly,широко,\n'+
+'"brush up, to",освежить,TRUE\n'+
+'bulk matter,окружающее вещество,\n'+
+'cancel,"взаимно уравнивать, гасить",TRUE\n'+
+'canceled,"аннулирован, отменен, погашен",TRUE\n'+
+'capacitance,емкость,\n'+
+'cellar,"подвал, погреб",TRUE\n'+
+'chant,заклинание,TRUE\n'+
+'"chant, to",заклинать,TRUE\n'+
+'claim,утверждение,TRUE\n'+
+'cliff,утес,TRUE\n'+
+'cling,прилипание,TRUE\n'+
+'club,клюшка,TRUE\n'+
+'coherence,согласованность,TRUE\n'+
+'coin,монета,TRUE\n'+
+'"collide, to",сталкиваться,TRUE\n'+
+'"comb, to",почёсывать,\n'+
+'commonly,часто,TRUE\n'+
+'compare,относится,TRUE\n'+
+'"compare, to",сравнивать,TRUE\n'+
+'comparison,сравнение,TRUE\n'+
+'"compell, to","заставить, принудить",TRUE\n'+
+'"complete, to",дополнить,\n'+
+'"complicate, to",усложнять,TRUE\n'+
+'complicated,сложный,TRUE\n'+
+'comprehensive,полный,TRUE\n'+
+'compress (v),сжимать,TRUE\n'+
+'compression,сжатие,TRUE\n'+
+'comprising,составляющий,TRUE\n'+
+'compute,вычислить,TRUE\n'+
+'concern,забота,TRUE\n'+
+'"concerned, to be","озадачен (to be concerned with ...= быть озадаченным ...); вовлечен, касаться (as long as I am concerned = что касатся меня)",TRUE\n'+
+'concrete,бетон,TRUE\n'+
+'condensed,не-газообразные,\n'+
+'confined,закрытый в коробке,TRUE\n'+
+'conquer,завоевать,TRUE\n'+
+'consecutive,последовательный,TRUE\n'+
+'consequence,следствие (чего-то),TRUE\n'+
+'consider,рассмотреть,TRUE\n'+
+'consistently,равномерно,TRUE\n'+
+'"contain, to",содержать,TRUE\n'+
+'convenient,удобный,TRUE\n'+
+'convenient,удобно,\n'+
+'cord,шнур,TRUE\n'+
+'Coulomb\'s law,закон Кулона,\n'+
+'counter-clockwise,против часовой стрелки,TRUE\n'+
+'counteracting,"взаимодействовать, противодействовать",TRUE\n'+
+'"cover, to","покрывать, охватывать",TRUE\n'+
+'"crack, to",раскусить,TRUE\n'+
+'crate,"ящик, кабина лифта",TRUE\n'+
+'"crawl, to",ползать,TRUE\n'+
+'cross-section area,площадь сечения,\n'+
+'crucial,"критический, очень важный",TRUE\n'+
+'curvy,кривой,TRUE\n'+
+'cushion,упругость,TRUE\n'+
+'dam,плотина,\n'+
+'decimal,десятичный,TRUE\n'+
+'decimal,"то, что имеет знаки после запятой",TRUE\n'+
+'decimals,цифры,\n'+
+'"decrease, to",уменьшить,\n'+
+'default,по умолчанию,TRUE\n'+
+'"define, to",определить,TRUE\n'+
+'definitely,определенно,\n'+
+'definition,определение,TRUE\n'+
+'"denote, to","обозначать, указывать",TRUE\n'+
+'deposition,превращение газа в твердое тело,\n'+
+'"derive, to",вывести,TRUE\n'+
+'descent,падение,TRUE\n'+
+'description,описание,TRUE\n'+
+'designated,"определенный, выделенный",TRUE\n'+
+'"determine, to",определять,TRUE\n'+
+'"differ, to",отличаться,TRUE\n'+
+'difference,разность,TRUE\n'+
+'dipole-induced,индуцированный (вызванный) диполем,\n'+
+'direct,"прямой, непосредственный",TRUE\n'+
+'direction,направление,TRUE\n'+
+'"discard, to",отбросить,TRUE\n'+
+'discounted,со сниженной ценой,TRUE\n'+
+'discouraged,не поощряется,TRUE\n'+
+'"dissipate, to","распыляться, распределяться, тратиться",TRUE\n'+
+'distinct,разные,TRUE\n'+
+'distinction,различие,TRUE\n'+
+'door-shutting,закрывание двери (cf. to shut the door),\n'+
+'downward,вниз,TRUE\n'+
+'"drop, to",упасть,TRUE\n'+
+'due to,"связано с, из-за",TRUE\n'+
+'during,в течение,TRUE\n'+
+'edge,край,TRUE\n'+
+'efficiency,эффективность,TRUE\n'+
+'efficiency,эффективность,\n'+
+'effort,усилие,\n'+
+'either A or B,А или В (одно и только одно),TRUE\n'+
+'elapsed,потраченное,TRUE\n'+
+'electrical circuit,электрическая цепь,\n'+
+'eligible,"полномочный, правильный",TRUE\n'+
+'"eliminate, to","исключить (переменную, вариант ответа)",TRUE\n'+
+'"embody, to","олицетворять, воплощать",TRUE\n'+
+'"enable, to","включить, сделать возможным, активировать",TRUE\n'+
+'enclosed,"окружающий, описанный",TRUE\n'+
+'encounter,столкновение,TRUE\n'+
+'"encounter, to",встретить,TRUE\n'+
+'engine,"двигатель, машина",\n'+
+'"ensure, to",убедиться,\n'+
+'"enter, to",войти (в состояние),\n'+
+'entire,"целый, весь",TRUE\n'+
+'equal in strength,полностью равны,\n'+
+'"equal, to",быть равным,TRUE\n'+
+'especially,особенно,TRUE\n'+
+'essentially,в основном,TRUE\n'+
+'"estimate, to","прикинуть, оценить",TRUE\n'+
+'estimation,прикидка,TRUE\n'+
+'"evaporate, to",испаряться,\n'+
+'even though,хотя,TRUE\n'+
+'eventually,в конце концов,TRUE\n'+
+'"evolve, to","эволюционировать, меняться",\n'+
+'exactly,точно,TRUE\n'+
+'except,за исключением,TRUE\n'+
+'excess,излишек,\n'+
+'"exclude, to",исключать,TRUE\n'+
+'"exert, to",осуществлять,TRUE\n'+
+'exhaust,"выхлоп, выброс",\n'+
+'"expand, to",расширять,TRUE\n'+
+'expansion,расширение,\n'+
+'expiration date,срок годности,TRUE\n'+
+'exposed,обнаженный,TRUE\n'+
+'expressed,выражен,TRUE\n'+
+'extended,протяженное,TRUE\n'+
+'external,внешний,TRUE\n'+
+'extract (n),вытяжка,TRUE\n'+
+'"extract, to",извлекать,TRUE\n'+
+'fairly,весьма,TRUE\n'+
+'feather,пушинка,TRUE\n'+
+'field,поле,TRUE\n'+
+'"figure out, to","понять, разобраться",TRUE\n'+
+'"fit into, to","устраивать, помещаться в, удовлетворять",TRUE\n'+
+'flexible,гибкий,\n'+
+'flip,перевернуть,TRUE\n'+
+'"float, to",плавать,\n'+
+'flow,поток,\n'+
+'"flow, to",течь,\n'+
+'following,вследствие/следующий,TRUE\n'+
+'"fool around, to","дурачиться, беситься",\n'+
+'former,первое,\n'+
+'foundation,основание,TRUE\n'+
+'Foundation block ,фундамент,\n'+
+'freely,свободно,TRUE\n'+
+'frequency,частота,\n'+
+'fuel,топливо,\n'+
+'fulerum,ось вращения,\n'+
+'fund-raiser,сбор благотворительных средств,TRUE\n'+
+'further,"дальше, далее",TRUE\n'+
+'"get messy, to",усложниться,TRUE\n'+
+'"get rid of sth, to",избавиться от чего-то,TRUE\n'+
+'"get tripped up, to",запутаться,TRUE\n'+
+'greater,больше,TRUE\n'+
+'"grind, to",перемалывать,TRUE\n'+
+'half as great as,вполовину большое по сравнению с,\n'+
+'halved,ополовиненный,TRUE\n'+
+'hammer,молоток,TRUE\n'+
+'handful,горсть,\n'+
+'"handle, to",справиться,TRUE\n'+
+'heavy dot,жирная точка,TRUE\n'+
+'hence,"таким образом, потому",\n'+
+'hollow,пустой,\n'+
+'homogeneous,однородное,\n'+
+'honors student,"студент спецгруппы, студент-медалист",TRUE\n'+
+'how much less,насколько меньше,TRUE\n'+
+'immediately,мгновенно,TRUE\n'+
+'impact,столкновение,TRUE\n'+
+'imply,подразумевает,TRUE\n'+
+'"impose, to",накладывать (условия),TRUE\n'+
+'"impress, to",приложить (силу),TRUE\n'+
+'in this fashion,таким образом,TRUE\n'+
+'"incorporate, to",соединять,TRUE\n'+
+'"increase, to",увеличить,\n'+
+'indeed,очевидно,TRUE\n'+
+'indefinitely,неопределенно; бесконечно,\n'+
+'indirect,"посредственный, непрямой",TRUE\n'+
+'inflatable,надувной,TRUE\n'+
+'initial,начальное,TRUE\n'+
+'inner,внутренный,TRUE\n'+
+'insulated,тепло-изолированный,\n'+
+'insulator,диэлектрик,\n'+
+'"intend, to",планировать,TRUE\n'+
+'interaction,взаимодействие,TRUE\n'+
+'intercept,пересечение,\n'+
+'interest,процент в банке,TRUE\n'+
+'internal-combustion engine,двигатель внутреннего сгорания,TRUE\n'+
+'intrinsic,"внутренний, не зависящий от внешних факторов",TRUE\n'+
+'involve,"включать (к примеру ""эта книга включает в себя ..."")",TRUE\n'+
+'involving,включающий,TRUE\n'+
+'irrelevant,несущественный,TRUE\n'+
+'joint,совместный,TRUE\n'+
+'knob,круглый переключатель,TRUE\n'+
+'labeled,обозначены,TRUE\n'+
+'landing,приземление,TRUE\n'+
+'latter,второе,\n'+
+'lattice,решётка,\n'+
+'launch angle,угол запуска,TRUE\n'+
+'"launch, to",запустить,TRUE\n'+
+'"lead to, to",привести к,\n'+
+'leaguer,член лиги,TRUE\n'+
+'leap,единица измерения,\n'+
+'length,длина,TRUE\n'+
+'lie flat,лежать плашмя,TRUE\n'+
+'"lift, to",поднимать вверх,TRUE\n'+
+'likewise,таким же образом,TRUE\n'+
+'likewise,аналогично,\n'+
+'listed above,записан выше,TRUE\n'+
+'long-winded,,\n'+
+'lose track,,\n'+
+'lower,"уменьшить, понизить, опустить",TRUE\n'+
+'lump,"комок, кусок",\n'+
+'magnitude,величина,TRUE\n'+
+'"mantain, to","сохранять, поддерживать",TRUE\n'+
+'marble,бусинка,TRUE\n'+
+'"master, to",изучить в совершенстве,\n'+
+'matter,материя,TRUE\n'+
+'mean (adj),"злой, жестокий",TRUE\n'+
+'mean (n),среднее,TRUE\n'+
+'"measure, to",измерять,TRUE\n'+
+'measured,измеренный,TRUE\n'+
+'"memorize, to",запомнить,TRUE\n'+
+'merely,"чисто, всего лишь",TRUE\n'+
+'merry-go-round,"карусель (та, где лошадки по кругу ездят)",TRUE\n'+
+'moment arm,рычаг (вращения),\n'+
+'motion,движение,TRUE\n'+
+'motionless,неподвижный,TRUE\n'+
+'multiple,кратное число,\n'+
+'mutual,взаимный,TRUE\n'+
+'"narrow, to","уменьшить (к-во вариантов), сузить",TRUE\n'+
+'nasty,"надоедливый, неприятный",TRUE\n'+
+'nearby,"ближние, соседние",TRUE\n'+
+'negligible compared with A,пренебрежимо мало в сравнении с A,TRUE\n'+
+'"neither A, nor B","ни А, ни B",TRUE\n'+
+'net,"суммарный, конечное; сеть",TRUE\n'+
+'notation,запись,TRUE\n'+
+'nuclei,множественное от nucleus,\n'+
+'nucleus,ядро (атома),\n'+
+'number worshipping,поклонение числам,\n'+
+'"obey, to",подчиняться,TRUE\n'+
+'observable,наглядный,TRUE\n'+
+'"obtain, to",получить,\n'+
+'ocasionally,"изредка, иногда",TRUE\n'+
+'"occur, to",случаться,TRUE\n'+
+'"omit, to",опустить (какую-то информацию),\n'+
+'outer surface,внешняя поверхность,\n'+
+'outward,указывающий наружу (прот. inward),\n'+
+'overcome,"превзойти, превозмочь",\n'+
+'overflow,потоп,\n'+
+'overlap,"пересечение, перекрытие, накладывание",\n'+
+'overlap,"перекрытие, наложение, пересечение",\n'+
+'paired,спарены,\n'+
+'"palm, to",пронести (мяч),\n'+
+'partial,частичный,\n'+
+'particular,определенное,\n'+
+'particularly,в частности,\n'+
+'partition,перегородка,\n'+
+'path,путь,\n'+
+'PE,Potential Energy,\n'+
+'period,точка (в конце предложения),\n'+
+'"permit, to",разрешить,\n'+
+'pertain,относиться к,\n'+
+'pesky,надоедливые,\n'+
+'pivot point,ось вращения,\n'+
+'plane,плоскость,\n'+
+'plank,,\n'+
+'plate,"тарелка, пластина",\n'+
+'"plot, to",начертить,\n'+
+'pond,,\n'+
+'"possess, to",владеть,\n'+
+'pound,фунт,\n'+
+'power,"сила, степень",\n'+
+'preceding,"предыдущие, предшествующие",\n'+
+'precisely,точно,\n'+
+'precisely,точно,\n'+
+'pressure,давление,\n'+
+'presto,в быстром темпе,\n'+
+'prime number,простое число,\n'+
+'principal root,,\n'+
+'product,"произведение, продукт",\n'+
+'prohibition,запрет,\n'+
+'properly,"хорошо, правильно",\n'+
+'property,свойство,\n'+
+'"provide, to",давать,\n'+
+'pull,тянуть,\n'+
+'pull,притяжение,\n'+
+'pulley,блок (механический),\n'+
+'pulley systems,система блоков,\n'+
+'pun intended,извините за каламбур,\n'+
+'"punt, to",ударить ногой (мяч),\n'+
+'pure gases,чистый газ,\n'+
+'purely,чисто,\n'+
+'purely imaginary number,действительное число умножить на i=sqrt(-1),\n'+
+'purpose,цель,\n'+
+'push,толкать,\n'+
+'quantity,величина,\n'+
+'quantized,квантизованный (разбитый на кванты),\n'+
+'quotient,частное (частка),\n'+
+'rain erosion,,\n'+
+'ramp,"скат, уклон",\n'+
+'range,дальность полёта,\n'+
+'rapidly,"мгновенно, быстро",\n'+
+'rate,быстрота,\n'+
+'rather,скорее,\n'+
+'ratio,отношение,\n'+
+'rebounding,отбиваясь,\n'+
+'recap,повторение,\n'+
+'"recap, to","повторять (урок, тему)",\n'+
+'reciprocal,обратное число (1/x),\n'+
+'rectangle,прямоугольний,\n'+
+'rectangular,прямоугольный,\n'+
+'"redistribute, to",перераспределить,\n'+
+'reduced fraction,сведенная дробь,\n'+
+'reference,ссылка,\n'+
+'reference point,"точка отсчета, основа системы координат",\n'+
+'refers,относится/ссылается,\n'+
+'reffering to A as B,называть А В,\n'+
+'regardless,несмотря на,\n'+
+'regular number,обычное число,\n'+
+'related,связаны между собой,\n'+
+'release,отпустить,\n'+
+'rely upon,полагаться на,\n'+
+'remain,оставаться,\n'+
+'remainder,"остаток (после деления на), остаток",\n'+
+'remainder,остаток,\n'+
+'"repel, to",отталкивать,\n'+
+'represent,представлять,\n'+
+'repulsion,отталкивание,\n'+
+'require,будут требовать,\n'+
+'required,неободимый,\n'+
+'"reside, to",располагаться,\n'+
+'resisance,сопротивление,\n'+
+'resist,оказывать сопротивление,\n'+
+'resolve,расписывать/решать,\n'+
+'respectively,соответственно,\n'+
+'respectively,соответственно,\n'+
+'rest,состояние покоя,\n'+
+'restoring,восстанавливающий,\n'+
+'revealed,обнаруживается,\n'+
+'reverse,возвращаться,\n'+
+'"revisit, to","вернуться к, освежить",\n'+
+'right triangle,прямоугольный треугольник,\n'+
+'rigid body,жесткое тело,\n'+
+'rising,поднимающийся,\n'+
+'"roam, to","бродить, кружить",\n'+
+'rod,палка,\n'+
+'roller-coaster,американские горки,\n'+
+'rooftop,чердак,\n'+
+'"rub, to",тереть,\n'+
+'"rub, to",тереть,\n'+
+'rubber,резина,\n'+
+'rubber-soled,,\n'+
+'rule of thumb,эмпирическое правило,\n'+
+'"run into, to","столкнуться с, встретиться с",\n'+
+'sake,с целью,\n'+
+'satellite,спутник,\n'+
+'saving bond,,\n'+
+'scale,длина /изменять длину (растягивать/сжимать),\n'+
+'scrambled,,\n'+
+'Sealed ,запечатанный,\n'+
+'semimajor axis,большая полуось эллипса,\n'+
+'separately,независимо,\n'+
+'shifting,сдвиг,\n'+
+'"shrink, to","сжимать(ся), уменьшать(ся)",\n'+
+'shuttling,"передача, транспорт",\n'+
+'sidestep,,\n'+
+'signed area,площадь со знаком,\n'+
+'significant,значительно,\n'+
+'simplify,упростить,\n'+
+'simultaneously,одновременно,\n'+
+'sink,"раковина, дыра, воронка",\n'+
+'sink,раковина,\n'+
+'skidding,,\n'+
+'skinny,информационная выжимка,\n'+
+'"slide, to",скользить,\n'+
+'sliding,скольжение,\n'+
+'slightly,немножко,\n'+
+'slow down,притормозить,\n'+
+'so far,"до текущего момента, на текущий момент",\n'+
+'sole root,,\n'+
+'solidifies,затвердевает,\n'+
+'solids produced by rotation,тела вращения,\n'+
+'solution,,\n'+
+'source,источник,\n'+
+'spatial,пространственный,\n'+
+'spatial,пространственный,\n'+
+'specify,,\n'+
+'spinning,вращающийся,\n'+
+'"spun, to",вращать (вокруг),\n'+
+'stack (n),стопка (как стопка тарелок),\n'+
+'stack (v),складывать (в стопку),\n'+
+'Stainless steel,нержавеющая сталь,\n'+
+'state,постановить,\n'+
+'"stay put, To",оставаться (на месте),\n'+
+'steadly,равномерно,\n'+
+'steep ,крутoй (наклон),\n'+
+'"store, to",хранить,\n'+
+'straightforward,прямолинейно,\n'+
+'strength,сила,\n'+
+'string together,"составить вместе (к примеру, составить вместе части пароля)",\n'+
+'struck,ударенное,\n'+
+'"stuck, to be",застрять,\n'+
+'stuntman,каскадер,\n'+
+'"submerge, to",погружать,\n'+
+'subscript,нижний индекс,\n'+
+'subsequently,,\n'+
+'superimposing,"нанесение, накладывание",\n'+
+'surface,поверхность,\n'+
+'surroundings,окружение,\n'+
+'suspicious,подозрительный,\n'+
+'swarm,рой,\n'+
+'"swarm, to",роиться,\n'+
+'"sweep, to",заметать,\n'+
+'swing,колебаться,\n'+
+'tabletop,"поверхность стола, верх стола",\n'+
+'tackle,справляться,\n'+
+'tackle,,\n'+
+'tail,хвост,\n'+
+'takes both into account,учитывает оба фактора,\n'+
+'tangent,тангенс/касательная,\n'+
+'tank,сосуд с водой,\n'+
+'tempted,соблазнен,\n'+
+'tend,стремиться к,\n'+
+'tension,"(механическое) напряжение, натяжение",\n'+
+'term,термин,\n'+
+'thereby,таким образом,\n'+
+'therefore,таким образом,\n'+
+'thread,"нить, канат",\n'+
+'throughout,на протяжении,\n'+
+'throughout,на протяжении всего,\n'+
+'thumb,большой палец руки,\n'+
+'thumb,,\n'+
+'thus,таким образом,\n'+
+'"tie, to",привязать,\n'+
+'tight(est),плотное (плотнейшее),\n'+
+'"tighten, to",затянуть (гайку),\n'+
+'tip,кончик,\n'+
+'to eject,впрыскивать,\n'+
+'torque,вращательный момент,\n'+
+'track and field,легкая атлетика,\n'+
+'trajectory,траектория,\n'+
+'translational motion,поступательное движение,\n'+
+'treat,считать (что-то чем-то),\n'+
+'treat,угроза,\n'+
+'tremendous,огромный,\n'+
+'triaxal,с тремя осями,\n'+
+'tricky,хитрый,\n'+
+'tug,тяга,\n'+
+'twist,вариация,\n'+
+'uniform,равномерное,\n'+
+'universe,вселенная,\n'+
+'unlike (adj),непохожий,\n'+
+'unroll,развернуть (фигуру),\n'+
+'unusual,необычный,\n'+
+'upside down,сверху вниз,\n'+
+'upward,вверх,\n'+
+'vanishingly,"таким образом/до такой степени, чтобы стать незначительным",\n'+
+'variation,изменение,\n'+
+'vast,"широкий (e.g. поле для деятельности), большой",\n'+
+'versus,против/в сравнении с,\n'+
+'vertex,вершина,\n'+
+'vertices,вершины,\n'+
+'virtually,почти,\n'+
+'vise verca,"и наоборот, и обратно",\n'+
+'volume,объём,\n'+
+'waste,тратить,\n'+
+'weaker,слабее,\n'+
+'weird,странное,\n'+
+'whether A or B,А или В,\n'+
+'"whirl, to",крутить,\n'+
+'within,внутри,\n'+
+'wool,шерсть,\n'+
+'word for word,буквально,\n'+
+'worth,стоимость,\n'+
+'wrench,гаечный ключ,\n'+
+'wrestle,бороться с ...,\n'+
+'yield,получать/давать,\n'+
+'direct current,прямой ток (cf. переменный ток),\n'+
+'"sustain, to",содержаться,\n'+
+'electric current,электрический ток,\n'+
+'wire,провод,\n'+
+'"collide, to",сталкиваться,\n'+
+'"swept, to be",быть унесенным,\n'+
+'"constitute, to",составлять,\n'+
+'to be swept,быть унесенным,\n'+
+'fiber,волокно,\n'+
+'resistivity,сопротивление,\n'+
+'to omit,"пропустить, опустить",\n'+
+'molehill,кротовая куча,\n'+
+'to supply,поставлять (ресурс),\n'+
+'pathway,путь,\n'+
+'"encounter, to",встретить,\n'+
+'"draw, to","вытягивать, забирать (энергию)",\n'+
+"";
