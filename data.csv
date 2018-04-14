@@ -155,6 +155,7 @@ csv=
 'coherence,согласованность,TRUE\n'+
 'coin,монета,TRUE\n'+
 '"collide, to",сталкиваться,TRUE\n'+
+'"collide, to",сталкиваться,\n'+
 '"comb, to",почёсывать,\n'+
 'commonly,часто,TRUE\n'+
 'compare,относится,TRUE\n'+
@@ -179,6 +180,7 @@ csv=
 'consequence,следствие (чего-то),TRUE\n'+
 'consider,рассмотреть,TRUE\n'+
 'consistently,равномерно,TRUE\n'+
+'"constitute, to",составлять,\n'+
 '"contain, to",содержать,TRUE\n'+
 'convenient,удобный,TRUE\n'+
 'convenient,удобно,\n'+
@@ -192,8 +194,10 @@ csv=
 '"crawl, to",ползать,TRUE\n'+
 'cross-section area,площадь сечения,\n'+
 'crucial,"критический, очень важный",TRUE\n'+
+'"curl around, to",крутиться вокруг,\n'+
 'curvy,кривой,TRUE\n'+
 'cushion,упругость,TRUE\n'+
+'"cut across, to",пересекать наискось,\n'+
 'dam,плотина,\n'+
 'decimal,десятичный,TRUE\n'+
 'decimal,"то, что имеет знаки после запятой",TRUE\n'+
@@ -203,6 +207,7 @@ csv=
 '"define, to",определить,TRUE\n'+
 'definitely,определенно,\n'+
 'definition,определение,TRUE\n'+
+'"deflect, to","преломлять(ся), искривлять(ся)",\n'+
 '"denote, to","обозначать, указывать",TRUE\n'+
 'deposition,превращение газа в твердое тело,\n'+
 '"derive, to",вывести,TRUE\n'+
@@ -214,6 +219,7 @@ csv=
 'difference,разность,TRUE\n'+
 'dipole-induced,индуцированный (вызванный) диполем,\n'+
 'direct,"прямой, непосредственный",TRUE\n'+
+'direct current,прямой ток (cf. переменный ток),\n'+
 'direction,направление,TRUE\n'+
 '"discard, to",отбросить,TRUE\n'+
 'discounted,со сниженной ценой,TRUE\n'+
@@ -223,6 +229,7 @@ csv=
 'distinction,различие,TRUE\n'+
 'door-shutting,закрывание двери (cf. to shut the door),\n'+
 'downward,вниз,TRUE\n'+
+'"draw, to","вытягивать, забирать (энергию)",\n'+
 '"drop, to",упасть,TRUE\n'+
 'due to,"связано с, из-за",TRUE\n'+
 'during,в течение,TRUE\n'+
@@ -232,6 +239,7 @@ csv=
 'effort,усилие,\n'+
 'either A or B,А или В (одно и только одно),TRUE\n'+
 'elapsed,потраченное,TRUE\n'+
+'electric current,электрический ток,\n'+
 'electrical circuit,электрическая цепь,\n'+
 'eligible,"полномочный, правильный",TRUE\n'+
 '"eliminate, to","исключить (переменную, вариант ответа)",TRUE\n'+
@@ -240,6 +248,7 @@ csv=
 'enclosed,"окружающий, описанный",TRUE\n'+
 'encounter,столкновение,TRUE\n'+
 '"encounter, to",встретить,TRUE\n'+
+'"encounter, to",встретить,\n'+
 'engine,"двигатель, машина",\n'+
 '"ensure, to",убедиться,\n'+
 '"enter, to",войти (в состояние),\n'+
@@ -248,6 +257,7 @@ csv=
 '"equal, to",быть равным,TRUE\n'+
 'especially,особенно,TRUE\n'+
 'essentially,в основном,TRUE\n'+
+'"establish, to",установить,\n'+
 '"estimate, to","прикинуть, оценить",TRUE\n'+
 'estimation,прикидка,TRUE\n'+
 '"evaporate, to",испаряться,\n'+
@@ -258,6 +268,7 @@ csv=
 'except,за исключением,TRUE\n'+
 'excess,излишек,\n'+
 '"exclude, to",исключать,TRUE\n'+
+'"execute, to",исполнять,\n'+
 '"exert, to",осуществлять,TRUE\n'+
 'exhaust,"выхлоп, выброс",\n'+
 '"expand, to",расширять,TRUE\n'+
@@ -271,6 +282,7 @@ csv=
 '"extract, to",извлекать,TRUE\n'+
 'fairly,весьма,TRUE\n'+
 'feather,пушинка,TRUE\n'+
+'fiber,волокно,\n'+
 'field,поле,TRUE\n'+
 '"figure out, to","понять, разобраться",TRUE\n'+
 '"fit into, to","устраивать, помещаться в, удовлетворять",TRUE\n'+
@@ -293,6 +305,7 @@ csv=
 '"get messy, to",усложниться,TRUE\n'+
 '"get rid of sth, to",избавиться от чего-то,TRUE\n'+
 '"get tripped up, to",запутаться,TRUE\n'+
+'"grab, to",схватить,\n'+
 'greater,больше,TRUE\n'+
 '"grind, to",перемалывать,TRUE\n'+
 'half as great as,вполовину большое по сравнению с,\n'+
@@ -307,6 +320,7 @@ csv=
 'honors student,"студент спецгруппы, студент-медалист",TRUE\n'+
 'how much less,насколько меньше,TRUE\n'+
 'immediately,мгновенно,TRUE\n'+
+'"immersed, to be",быть погруженным,\n'+
 'impact,столкновение,TRUE\n'+
 'imply,подразумевает,TRUE\n'+
 '"impose, to",накладывать (условия),TRUE\n'+
@@ -349,6 +363,7 @@ csv=
 'likewise,аналогично,\n'+
 'listed above,записан выше,TRUE\n'+
 'long-winded,,\n'+
+'loop,"кольцо, цикл, рамка, замкнутая кривая",\n'+
 'lose track,,\n'+
 'lower,"уменьшить, понизить, опустить",TRUE\n'+
 'lump,"комок, кусок",\n'+
@@ -364,6 +379,7 @@ csv=
 '"memorize, to",запомнить,TRUE\n'+
 'merely,"чисто, всего лишь",TRUE\n'+
 'merry-go-round,"карусель (та, где лошадки по кругу ездят)",TRUE\n'+
+'molehill,кротовая куча,\n'+
 'moment arm,рычаг (вращения),\n'+
 'motion,движение,TRUE\n'+
 'motionless,неподвижный,TRUE\n'+
@@ -398,6 +414,7 @@ csv=
 'particularly,в частности,\n'+
 'partition,перегородка,\n'+
 'path,путь,\n'+
+'pathway,путь,\n'+
 'PE,Potential Energy,\n'+
 'period,точка (в конце предложения),\n'+
 '"permit, to",разрешить,\n'+
@@ -438,6 +455,7 @@ csv=
 'quantity,величина,\n'+
 'quantized,квантизованный (разбитый на кванты),\n'+
 'quotient,частное (частка),\n'+
+'"radiate away, to",расходить(ся)/излучать(ся) вокруг (по радиусу),\n'+
 'rain erosion,,\n'+
 'ramp,"скат, уклон",\n'+
 'range,дальность полёта,\n'+
@@ -473,6 +491,7 @@ csv=
 '"reside, to",располагаться,\n'+
 'resisance,сопротивление,\n'+
 'resist,оказывать сопротивление,\n'+
+'resistivity,сопротивление,\n'+
 'resolve,расписывать/решать,\n'+
 'respectively,соответственно,\n'+
 'respectively,соответственно,\n'+
@@ -550,10 +569,13 @@ csv=
 'surface,поверхность,\n'+
 'surroundings,окружение,\n'+
 'suspicious,подозрительный,\n'+
+'"sustain, to",содержаться,\n'+
 'swarm,рой,\n'+
 '"swarm, to",роиться,\n'+
 '"sweep, to",заметать,\n'+
+'"swept, to be",быть унесенным,\n'+
 'swing,колебаться,\n'+
+'switch,"переключатель, выключатель",\n'+
 'tabletop,"поверхность стола, верх стола",\n'+
 'tackle,справляться,\n'+
 'tackle,,\n'+
@@ -577,7 +599,10 @@ csv=
 'tight(est),плотное (плотнейшее),\n'+
 '"tighten, to",затянуть (гайку),\n'+
 'tip,кончик,\n'+
+'to be swept,быть унесенным,\n'+
 'to eject,впрыскивать,\n'+
+'to omit,"пропустить, опустить",\n'+
+'to supply,поставлять (ресурс),\n'+
 'torque,вращательный момент,\n'+
 'track and field,легкая атлетика,\n'+
 'trajectory,траектория,\n'+
@@ -610,6 +635,7 @@ csv=
 'weird,странное,\n'+
 'whether A or B,А или В,\n'+
 '"whirl, to",крутить,\n'+
+'wire,провод,\n'+
 'within,внутри,\n'+
 'wool,шерсть,\n'+
 'word for word,буквально,\n'+
@@ -617,22 +643,4 @@ csv=
 'wrench,гаечный ключ,\n'+
 'wrestle,бороться с ...,\n'+
 'yield,получать/давать,\n'+
-'direct current,прямой ток (cf. переменный ток),\n'+
-'"sustain, to",содержаться,\n'+
-'electric current,электрический ток,\n'+
-'wire,провод,\n'+
-'"collide, to",сталкиваться,\n'+
-'"swept, to be",быть унесенным,\n'+
-'"constitute, to",составлять,\n'+
-'to be swept,быть унесенным,\n'+
-'fiber,волокно,\n'+
-'resistivity,сопротивление,\n'+
-'to omit,"пропустить, опустить",\n'+
-'molehill,кротовая куча,\n'+
-'to supply,поставлять (ресурс),\n'+
-'pathway,путь,\n'+
-'"encounter, to",встретить,\n'+
-'"draw, to","вытягивать, забирать (энергию)",\n'+
-'"establish, to",установить,\n'+
-'switch,"переключатель, выключатель",\n'+
 "";
