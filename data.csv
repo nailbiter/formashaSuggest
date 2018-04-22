@@ -142,6 +142,7 @@ csv=
 'broadly,широко,\n'+
 '"brush up, to",освежить,TRUE\n'+
 'bulk matter,окружающее вещество,\n'+
+'bulky,"большой, неудобный",\n'+
 'cancel,"взаимно уравнивать, гасить",TRUE\n'+
 'canceled,"аннулирован, отменен, погашен",TRUE\n'+
 'capacitance,емкость,\n'+
@@ -153,10 +154,12 @@ csv=
 'cling,прилипание,TRUE\n'+
 'club,клюшка,TRUE\n'+
 'coherence,согласованность,TRUE\n'+
+'coil,спираль,\n'+
 'coin,монета,TRUE\n'+
 '"collide, to",сталкиваться,TRUE\n'+
 '"collide, to",сталкиваться,\n'+
 '"comb, to",почёсывать,\n'+
+'comitee,комитет,\n'+
 'commonly,часто,TRUE\n'+
 'compare,относится,TRUE\n'+
 '"compare, to",сравнивать,TRUE\n'+
@@ -186,6 +189,7 @@ csv=
 'convenient,удобно,\n'+
 'cord,шнур,TRUE\n'+
 'Coulomb\'s law,закон Кулона,\n'+
+'count,количество,\n'+
 'counter-clockwise,против часовой стрелки,TRUE\n'+
 'counteracting,"взаимодействовать, противодействовать",TRUE\n'+
 '"cover, to","покрывать, охватывать",TRUE\n'+
@@ -199,6 +203,7 @@ csv=
 'cushion,упругость,TRUE\n'+
 '"cut across, to",пересекать наискось,\n'+
 'dam,плотина,\n'+
+'data,данные,\n'+
 'decimal,десятичный,TRUE\n'+
 'decimal,"то, что имеет знаки после запятой",TRUE\n'+
 'decimals,цифры,\n'+
@@ -215,6 +220,9 @@ csv=
 'description,описание,TRUE\n'+
 'designated,"определенный, выделенный",TRUE\n'+
 '"determine, to",определять,TRUE\n'+
+'deviation,отклонение,\n'+
+'dice,игральные кости,\n'+
+'die,Игральный кубик,\n'+
 '"differ, to",отличаться,TRUE\n'+
 'difference,разность,TRUE\n'+
 'dipole-induced,индуцированный (вызванный) диполем,\n'+
@@ -249,6 +257,7 @@ csv=
 'encounter,столкновение,TRUE\n'+
 '"encounter, to",встретить,TRUE\n'+
 '"encounter, to",встретить,\n'+
+'"endure, to",терпеть,\n'+
 'engine,"двигатель, машина",\n'+
 '"ensure, to",убедиться,\n'+
 '"enter, to",войти (в состояние),\n'+
@@ -281,6 +290,7 @@ csv=
 'extract (n),вытяжка,TRUE\n'+
 '"extract, to",извлекать,TRUE\n'+
 'fairly,весьма,TRUE\n'+
+'fan,вентилятор,\n'+
 'feather,пушинка,TRUE\n'+
 'fiber,волокно,\n'+
 'field,поле,TRUE\n'+
@@ -291,6 +301,7 @@ csv=
 '"float, to",плавать,\n'+
 'flow,поток,\n'+
 '"flow, to",течь,\n'+
+'flux,поток,\n'+
 'following,вследствие/следующий,TRUE\n'+
 '"fool around, to","дурачиться, беситься",\n'+
 'former,первое,\n'+
@@ -305,6 +316,7 @@ csv=
 '"get messy, to",усложниться,TRUE\n'+
 '"get rid of sth, to",избавиться от чего-то,TRUE\n'+
 '"get tripped up, to",запутаться,TRUE\n'+
+'"glad, to be",быть счастливым,\n'+
 '"grab, to",схватить,\n'+
 'greater,больше,TRUE\n'+
 '"grind, to",перемалывать,TRUE\n'+
@@ -359,6 +371,7 @@ csv=
 'length,длина,TRUE\n'+
 'lie flat,лежать плашмя,TRUE\n'+
 '"lift, to",поднимать вверх,TRUE\n'+
+'likelihood,"Вероятность, возможность",\n'+
 'likewise,таким же образом,TRUE\n'+
 'likewise,аналогично,\n'+
 'listed above,записан выше,TRUE\n'+
@@ -418,6 +431,7 @@ csv=
 'PE,Potential Energy,\n'+
 'period,точка (в конце предложения),\n'+
 '"permit, to",разрешить,\n'+
+'permutation,перестановка,\n'+
 'pertain,относиться к,\n'+
 'pesky,надоедливые,\n'+
 'pivot point,ось вращения,\n'+
@@ -432,6 +446,7 @@ csv=
 'preceding,"предыдущие, предшествующие",\n'+
 'precisely,точно,\n'+
 'precisely,точно,\n'+
+'presence,присутствие,\n'+
 'pressure,давление,\n'+
 'presto,в быстром темпе,\n'+
 'prime number,простое число,\n'+
@@ -454,6 +469,8 @@ csv=
 'push,толкать,\n'+
 'quantity,величина,\n'+
 'quantized,квантизованный (разбитый на кванты),\n'+
+'quartile,четверть,\n'+
+'quiz,"тест, “летучка”",\n'+
 'quotient,частное (частка),\n'+
 '"radiate away, to",расходить(ся)/излучать(ся) вокруг (по радиусу),\n'+
 'rain erosion,,\n'+
@@ -507,6 +524,7 @@ csv=
 'rod,палка,\n'+
 'roller-coaster,американские горки,\n'+
 'rooftop,чердак,\n'+
+'rough,грубый,\n'+
 '"rub, to",тереть,\n'+
 '"rub, to",тереть,\n'+
 'rubber,резина,\n'+
@@ -517,10 +535,12 @@ csv=
 'satellite,спутник,\n'+
 'saving bond,,\n'+
 'scale,длина /изменять длину (растягивать/сжимать),\n'+
+'scattered,разбросаны,\n'+
 'scrambled,,\n'+
 'Sealed ,запечатанный,\n'+
 'semimajor axis,большая полуось эллипса,\n'+
 'separately,независимо,\n'+
+'set,множество,\n'+
 'shifting,сдвиг,\n'+
 '"shrink, to","сжимать(ся), уменьшать(ся)",\n'+
 'shuttling,"передача, транспорт",\n'+
@@ -555,6 +575,7 @@ csv=
 '"stay put, To",оставаться (на месте),\n'+
 'steadly,равномерно,\n'+
 'steep ,крутoй (наклон),\n'+
+'stem,"стержень, стебель",\n'+
 '"store, to",хранить,\n'+
 'straightforward,прямолинейно,\n'+
 'strength,сила,\n'+
@@ -598,9 +619,11 @@ csv=
 '"tie, to",привязать,\n'+
 'tight(est),плотное (плотнейшее),\n'+
 '"tighten, to",затянуть (гайку),\n'+
+'tilt angle,угол наклона,\n'+
 'tip,кончик,\n'+
 'to be swept,быть унесенным,\n'+
 'to eject,впрыскивать,\n'+
+'to keep you guessing,заставлять тебя продолжать угадывать,\n'+
 'to omit,"пропустить, опустить",\n'+
 'to supply,поставлять (ресурс),\n'+
 'torque,вращательный момент,\n'+
@@ -635,6 +658,7 @@ csv=
 'weird,странное,\n'+
 'whether A or B,А или В,\n'+
 '"whirl, to",крутить,\n'+
+'widely,широко,\n'+
 'wire,провод,\n'+
 'within,внутри,\n'+
 'wool,шерсть,\n'+
@@ -643,20 +667,20 @@ csv=
 'wrench,гаечный ключ,\n'+
 'wrestle,бороться с ...,\n'+
 'yield,получать/давать,\n'+
-'set,множество,\n'+
-'deviation,отклонение,\n'+
-'permutation,перестановка,\n'+
-'to keep you guessing,заставлять тебя продолжать угадывать,\n'+
-'stem,"стержень, стебель",\n'+
-'quiz,"тест, “летучка”",\n'+
-'data,данные,\n'+
-'quartile,четверть,\n'+
-'widely,широко,\n'+
-'scattered,разбросаны,\n'+
-'"endure, to",терпеть,\n'+
-'"glad, to be",быть счастливым,\n'+
-'rough,грубый,\n'+
-'likelihood,"Вероятность, возможность",\n'+
-'die,Игральный кубик,\n'+
-'dice,игральные кости,\n'+
+'"stick with A, to","привыкнуть к A, держаться А",\n'+
+'grasp,понимание,\n'+
+'"emanate, to",излучать,\n'+
+'"align, to","уравнивать, выравнивать, ровнЯть",\n'+
+'"retain, to",сохранять,\n'+
+'disturbance,возмущение,\n'+
+'"transmit, to",передавать,\n'+
+'medium,среда,\n'+
+'transverse,поперечный,\n'+
+'"propagate, to",распространяться,\n'+
+'peak,пик,\n'+
+'valley,яма,\n'+
+'crest ,гребень (волны),\n'+
+'trough,впадина (волны),\n'+
+'"whisper, to",шептать,\n'+
+'"yell, to",кричать,\n'+
 "";
