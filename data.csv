@@ -683,4 +683,20 @@ csv=
 'trough,впадина (волны),\n'+
 '"whisper, to",шептать,\n'+
 '"yell, to",кричать,\n'+
+'node,узел,\n'+
+'"tune, to",настраивать,\n'+
+'"loosen, to","ослаблять (узел, струну)",\n'+
+'plucked string,натянутая нить,\n'+
+'jackhammer,отбойный молоток,\n'+
+'pipe,труба,\n'+
+'"exploit, to",использовать,\n'+
+'longtitudal,продольный,\n'+
+'ambient,окружающий,\n'+
+'threshold,"предельное значение, рубеж",\n'+
+'"pile up, to",взгромождаться,\n'+
+'pitch,высота звука,\n'+
+'"recede, to",удаляться,\n'+
+'miscellaneous,разное,\n'+
+'visible,видимый,\n'+
+'sliver,кусочек,\n'+
 "";
