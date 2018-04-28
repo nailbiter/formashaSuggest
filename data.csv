@@ -98,11 +98,14 @@ csv=
 'accurate,точный,TRUE\n'+
 '"acquire, to",получить,\n'+
 'adjacent,соседний,TRUE\n'+
+'"align, to","уравнивать, выравнивать, ровнЯть",\n'+
 'almost,почти,TRUE\n'+
 'alter,менять,TRUE\n'+
+'ambient,окружающий,\n'+
 'amount,количество,TRUE\n'+
 'amusement park,парк развлечений,TRUE\n'+
 'apart,"по частям, не вместе",TRUE\n'+
+'aperture,"люк, щель",\n'+
 'apparent,кажущийся,TRUE\n'+
 'applied,"приложенный, прикладной",TRUE\n'+
 'approach,"приближаться (к чему-то), атаковать (задачу)",TRUE\n'+
@@ -196,6 +199,7 @@ csv=
 '"crack, to",раскусить,TRUE\n'+
 'crate,"ящик, кабина лифта",TRUE\n'+
 '"crawl, to",ползать,TRUE\n'+
+'crest ,гребень (волны),\n'+
 'cross-section area,площадь сечения,\n'+
 'crucial,"критический, очень важный",TRUE\n'+
 '"curl around, to",крутиться вокруг,\n'+
@@ -235,6 +239,7 @@ csv=
 '"dissipate, to","распыляться, распределяться, тратиться",TRUE\n'+
 'distinct,разные,TRUE\n'+
 'distinction,различие,TRUE\n'+
+'disturbance,возмущение,\n'+
 'door-shutting,закрывание двери (cf. to shut the door),\n'+
 'downward,вниз,TRUE\n'+
 '"draw, to","вытягивать, забирать (энергию)",\n'+
@@ -251,6 +256,7 @@ csv=
 'electrical circuit,электрическая цепь,\n'+
 'eligible,"полномочный, правильный",TRUE\n'+
 '"eliminate, to","исключить (переменную, вариант ответа)",TRUE\n'+
+'"emanate, to",излучать,\n'+
 '"embody, to","олицетворять, воплощать",TRUE\n'+
 '"enable, to","включить, сделать возможным, активировать",TRUE\n'+
 'enclosed,"окружающий, описанный",TRUE\n'+
@@ -283,14 +289,17 @@ csv=
 '"expand, to",расширять,TRUE\n'+
 'expansion,расширение,\n'+
 'expiration date,срок годности,TRUE\n'+
+'"exploit, to",использовать,\n'+
 'exposed,обнаженный,TRUE\n'+
 'expressed,выражен,TRUE\n'+
 'extended,протяженное,TRUE\n'+
 'external,внешний,TRUE\n'+
 'extract (n),вытяжка,TRUE\n'+
 '"extract, to",извлекать,TRUE\n'+
+'faint,тихо,\n'+
 'fairly,весьма,TRUE\n'+
 'fan,вентилятор,\n'+
+'"fan out, to",развернуться веером,\n'+
 'feather,пушинка,TRUE\n'+
 'fiber,волокно,\n'+
 'field,поле,TRUE\n'+
@@ -318,6 +327,8 @@ csv=
 '"get tripped up, to",запутаться,TRUE\n'+
 '"glad, to be",быть счастливым,\n'+
 '"grab, to",схватить,\n'+
+'grasp,понимание,\n'+
+'gratings,решетка,\n'+
 'greater,больше,TRUE\n'+
 '"grind, to",перемалывать,TRUE\n'+
 'half as great as,вполовину большое по сравнению с,\n'+
@@ -357,6 +368,7 @@ csv=
 'involve,"включать (к примеру ""эта книга включает в себя ..."")",TRUE\n'+
 'involving,включающий,TRUE\n'+
 'irrelevant,несущественный,TRUE\n'+
+'jackhammer,отбойный молоток,\n'+
 'joint,совместный,TRUE\n'+
 'knob,круглый переключатель,TRUE\n'+
 'labeled,обозначены,TRUE\n'+
@@ -376,7 +388,9 @@ csv=
 'likewise,аналогично,\n'+
 'listed above,записан выше,TRUE\n'+
 'long-winded,,\n'+
+'longtitudal,продольный,\n'+
 'loop,"кольцо, цикл, рамка, замкнутая кривая",\n'+
+'"loosen, to","ослаблять (узел, струну)",\n'+
 'lose track,,\n'+
 'lower,"уменьшить, понизить, опустить",TRUE\n'+
 'lump,"комок, кусок",\n'+
@@ -389,9 +403,11 @@ csv=
 'mean (n),среднее,TRUE\n'+
 '"measure, to",измерять,TRUE\n'+
 'measured,измеренный,TRUE\n'+
+'medium,среда,\n'+
 '"memorize, to",запомнить,TRUE\n'+
 'merely,"чисто, всего лишь",TRUE\n'+
 'merry-go-round,"карусель (та, где лошадки по кругу ездят)",TRUE\n'+
+'miscellaneous,разное,\n'+
 'molehill,кротовая куча,\n'+
 'moment arm,рычаг (вращения),\n'+
 'motion,движение,TRUE\n'+
@@ -404,6 +420,7 @@ csv=
 'negligible compared with A,пренебрежимо мало в сравнении с A,TRUE\n'+
 '"neither A, nor B","ни А, ни B",TRUE\n'+
 'net,"суммарный, конечное; сеть",TRUE\n'+
+'node,узел,\n'+
 'notation,запись,TRUE\n'+
 'nuclei,множественное от nucleus,\n'+
 'nucleus,ядро (атома),\n'+
@@ -429,16 +446,21 @@ csv=
 'path,путь,\n'+
 'pathway,путь,\n'+
 'PE,Potential Energy,\n'+
+'peak,пик,\n'+
 'period,точка (в конце предложения),\n'+
 '"permit, to",разрешить,\n'+
 'permutation,перестановка,\n'+
 'pertain,относиться к,\n'+
 'pesky,надоедливые,\n'+
+'"pile up, to",взгромождаться,\n'+
+'pipe,труба,\n'+
+'pitch,высота звука,\n'+
 'pivot point,ось вращения,\n'+
 'plane,плоскость,\n'+
 'plank,,\n'+
 'plate,"тарелка, пластина",\n'+
 '"plot, to",начертить,\n'+
+'plucked string,натянутая нить,\n'+
 'pond,,\n'+
 '"possess, to",владеть,\n'+
 'pound,фунт,\n'+
@@ -453,6 +475,8 @@ csv=
 'principal root,,\n'+
 'product,"произведение, продукт",\n'+
 'prohibition,запрет,\n'+
+'pronounced,выраженный,\n'+
+'"propagate, to",распространяться,\n'+
 'properly,"хорошо, правильно",\n'+
 'property,свойство,\n'+
 '"provide, to",давать,\n'+
@@ -483,6 +507,7 @@ csv=
 'rebounding,отбиваясь,\n'+
 'recap,повторение,\n'+
 '"recap, to","повторять (урок, тему)",\n'+
+'"recede, to",удаляться,\n'+
 'reciprocal,обратное число (1/x),\n'+
 'rectangle,прямоугольний,\n'+
 'rectangular,прямоугольный,\n'+
@@ -514,6 +539,7 @@ csv=
 'respectively,соответственно,\n'+
 'rest,состояние покоя,\n'+
 'restoring,восстанавливающий,\n'+
+'"retain, to",сохранять,\n'+
 'revealed,обнаруживается,\n'+
 'reverse,возвращаться,\n'+
 '"revisit, to","вернуться к, освежить",\n'+
@@ -541,6 +567,7 @@ csv=
 'semimajor axis,большая полуось эллипса,\n'+
 'separately,независимо,\n'+
 'set,множество,\n'+
+'sharp,"сильнее, острее, четче",\n'+
 'shifting,сдвиг,\n'+
 '"shrink, to","сжимать(ся), уменьшать(ся)",\n'+
 'shuttling,"передача, транспорт",\n'+
@@ -556,7 +583,10 @@ csv=
 '"slide, to",скользить,\n'+
 'sliding,скольжение,\n'+
 'slightly,немножко,\n'+
+'slit,щель,\n'+
+'sliver,кусочек,\n'+
 'slow down,притормозить,\n'+
+'smooth,гладкий,\n'+
 'so far,"до текущего момента, на текущий момент",\n'+
 'sole root,,\n'+
 'solidifies,затвердевает,\n'+
@@ -576,6 +606,7 @@ csv=
 'steadly,равномерно,\n'+
 'steep ,крутoй (наклон),\n'+
 'stem,"стержень, стебель",\n'+
+'"stick with A, to","привыкнуть к A, держаться А",\n'+
 '"store, to",хранить,\n'+
 'straightforward,прямолинейно,\n'+
 'strength,сила,\n'+
@@ -611,6 +642,7 @@ csv=
 'thereby,таким образом,\n'+
 'therefore,таким образом,\n'+
 'thread,"нить, канат",\n'+
+'threshold,"предельное значение, рубеж",\n'+
 'throughout,на протяжении,\n'+
 'throughout,на протяжении всего,\n'+
 'thumb,большой палец руки,\n'+
@@ -630,12 +662,17 @@ csv=
 'track and field,легкая атлетика,\n'+
 'trajectory,траектория,\n'+
 'translational motion,поступательное движение,\n'+
+'"transmit, to",передавать,\n'+
+'transparent,прозрачный,\n'+
+'transverse,поперечный,\n'+
 'treat,считать (что-то чем-то),\n'+
 'treat,угроза,\n'+
 'tremendous,огромный,\n'+
 'triaxal,с тремя осями,\n'+
 'tricky,хитрый,\n'+
+'trough,впадина (волны),\n'+
 'tug,тяга,\n'+
+'"tune, to",настраивать,\n'+
 'twist,вариация,\n'+
 'uniform,равномерное,\n'+
 'universe,вселенная,\n'+
@@ -644,6 +681,7 @@ csv=
 'unusual,необычный,\n'+
 'upside down,сверху вниз,\n'+
 'upward,вверх,\n'+
+'valley,яма,\n'+
 'vanishingly,"таким образом/до такой степени, чтобы стать незначительным",\n'+
 'variation,изменение,\n'+
 'vast,"широкий (e.g. поле для деятельности), большой",\n'+
@@ -652,12 +690,14 @@ csv=
 'vertices,вершины,\n'+
 'virtually,почти,\n'+
 'vise verca,"и наоборот, и обратно",\n'+
+'visible,видимый,\n'+
 'volume,объём,\n'+
 'waste,тратить,\n'+
 'weaker,слабее,\n'+
 'weird,странное,\n'+
 'whether A or B,А или В,\n'+
 '"whirl, to",крутить,\n'+
+'"whisper, to",шептать,\n'+
 'widely,широко,\n'+
 'wire,провод,\n'+
 'within,внутри,\n'+
@@ -666,37 +706,14 @@ csv=
 'worth,стоимость,\n'+
 'wrench,гаечный ключ,\n'+
 'wrestle,бороться с ...,\n'+
-'yield,получать/давать,\n'+
-'"stick with A, to","привыкнуть к A, держаться А",\n'+
-'grasp,понимание,\n'+
-'"emanate, to",излучать,\n'+
-'"align, to","уравнивать, выравнивать, ровнЯть",\n'+
-'"retain, to",сохранять,\n'+
-'disturbance,возмущение,\n'+
-'"transmit, to",передавать,\n'+
-'medium,среда,\n'+
-'transverse,поперечный,\n'+
-'"propagate, to",распространяться,\n'+
-'peak,пик,\n'+
-'valley,яма,\n'+
-'crest ,гребень (волны),\n'+
-'trough,впадина (волны),\n'+
-'"whisper, to",шептать,\n'+
 '"yell, to",кричать,\n'+
-'node,узел,\n'+
-'"tune, to",настраивать,\n'+
-'"loosen, to","ослаблять (узел, струну)",\n'+
-'plucked string,натянутая нить,\n'+
-'jackhammer,отбойный молоток,\n'+
-'pipe,труба,\n'+
-'"exploit, to",использовать,\n'+
-'longtitudal,продольный,\n'+
-'ambient,окружающий,\n'+
-'threshold,"предельное значение, рубеж",\n'+
-'"pile up, to",взгромождаться,\n'+
-'pitch,высота звука,\n'+
-'"recede, to",удаляться,\n'+
-'miscellaneous,разное,\n'+
-'visible,видимый,\n'+
-'sliver,кусочек,\n'+
+'yield,получать/давать,\n'+
+'"originate, to","появиться, зародиться",\n'+
+'inverted,обращённый (в другую сторону),\n'+
+'"magnify, to",увеличить(ся),\n'+
+'"diminish, to","уменьшить(ся), исчезнуть",\n'+
+'concave,вогнутый,\n'+
+'convex,выпуклый,\n'+
+'converging lens,собирающая линза,\n'+
+'diverging lens,рассеивающая линза,\n'+
 "";
