@@ -761,4 +761,23 @@ csv=
 '"refuse, to",отказать,\n'+
 'conjecture,гипотеза,\n'+
 'smelly,вонючий,\n'+
+'duality,"дуализм, двойственность",\n'+
+'pertinent,уместный; подходящий; имеющий отношение,\n'+
+'"bind, to",связывать вместе,\n'+
+'"bend, to",гнуть,\n'+
+'contemporary,современный,\n'+
+'contracted,сжатое,\n'+
+'"sneeze, to",чихать,\n'+
+'dilated time,"замедленное время, растянутое время",\n'+
+'lest A give you B,пусть А не даст вам В,\n'+
+'special relativity,специальная теория относительности,\n'+
+'in-depth,полное (понимание),\n'+
+'reference frame,система координат,\n'+
+'disintegration,дезинтеграция,\n'+
+'fission,разделение,\n'+
+'fusion,сплавление,\n'+
+'cannot be A nor B,"не может быть ни А, ни В",\n'+
+'asterisk,звездочка (*),\n'+
+'electron capture,электронный захват,\n'+
+'radioactive decay,радиоактивный распад,\n'+
 "";
