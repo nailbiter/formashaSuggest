@@ -716,4 +716,22 @@ csv=
 'convex,выпуклый,\n'+
 'converging lens,собирающая линза,\n'+
 'diverging lens,рассеивающая линза,\n'+
+'bunch,куча,\n'+
+'"embed, to","вставить, вложить",\n'+
+'raisin,изюм,\n'+
+'foil,фольга,\n'+
+'glob,комок,\n'+
+'"sail, to",плыть,\n'+
+'target,цель,\n'+
+'"emit, to",излучать,\n'+
+'"prove, to",доказать,\n'+
+'bundle,"связка, котомка, пучок, пакет",\n'+
+'stream,поток,\n'+
+'"liberate, to",освободить,\n'+
+'delay,"задержка, пауза",\n'+
+'sufficient,достаточно,\n'+
+'grip,"захват, контроль",\n'+
+'"impart, to",передать (что-то),\n'+
+'bombardment,бомбардировка,\n'+
+'worthwhile,имеет смысл,\n'+
 "";
